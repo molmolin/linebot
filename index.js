@@ -33,7 +33,7 @@ bot.on('message', function(event) {
   if (event.message.type = 'text') {
     var msg = event.message.text;
     var item = items[Math.floor(Math.random()*items.length)];        
-    if (msg == '晚餐吃什麼'){
+    if (msg == '午餐'){
       event.reply([item,'打翻味噌醬ㄉ🐢請客','記得記帳']).then(function(data) {});          
     }
   }
